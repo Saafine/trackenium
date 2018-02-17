@@ -1,0 +1,25 @@
+@import '../../../styles/_variables.scss';
+
+.this-navbar {
+  background: #2e323a;
+  padding: 30px;
+}
+
+.this-input {
+  min-width: 150px;
+
+  &::placeholder {
+    color: $primary-gray-3;
+  }
+}
+
+.this-logo {
+  color: $primary-1;
+  font-size: $font-xxl;
+}
+
+.this-app-name {
+  font-size: $font-xl;
+  color: $primary-gray-5;
+  font-weight: $font-weight-500;
+}
