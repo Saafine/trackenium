@@ -1,8 +1,8 @@
 # User Specific
-/_DoNotCopy
+/_DoNotCopy# Logs
+           *.log
 
-# Logs
-*.log
+
 
 # OS generated files #
 .DS_Store
@@ -30,22 +30,7 @@ server/npm-debug.log.*
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-./idea
-./.idea
-
-# User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
-
-# Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+.idea
 
 # Gradle:
 .idea/**/gradle.xml
