@@ -1,7 +1,12 @@
-<div class="container-max-width container-py-1 mx-auto">
+<div class="container-max-width container-my-1 mx-auto">
     <div class="mb-4">MOST POPULAR CRYPTOCURRENCIES</div>
 
-    <views-dashboard-coin-summary [coins]="coins"></views-dashboard-coin-summary>
+    <div class="flex">
+        <views-dashboard-coin-summary class="flex-1 mr-4" [coins]="coins"></views-dashboard-coin-summary>
+
+        <views-dashboard-coin-raising style="max-width: 350px; flex: 1;" [coins]="coins"></views-dashboard-coin-raising>
+        <!--<div style="height: 1000px; flex: 1; background: #427d80; max-width: 300px;"></div>-->
+    </div>
 
     <!--<div class="flex flex-justify-center" style="margin-bottom: 30px;">-->
     <!--<div class="flex-1 container-max-width">MOST POPULAR CRYPTOCURRENCIES</div>-->

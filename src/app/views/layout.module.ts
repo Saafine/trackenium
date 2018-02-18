@@ -10,13 +10,15 @@ import { LayoutComponent } from './layout.component';
 import { ViewsNavbarComponent } from './navbar/navbar.component';
 import { ViewsDashboardComponent } from './dashboard/dashboard.component';
 import { ViewsDashboardCoinSummaryComponent } from './dashboard/coin-summary/coin-summary.component';
+import { ViewsDashboardCoinRaisingComponent } from './dashboard/coin-raising/coin-raising.component';
 
 @NgModule({
   declarations: [
     LayoutComponent,
     ViewsNavbarComponent,
     ViewsDashboardComponent,
-    ViewsDashboardCoinSummaryComponent
+    ViewsDashboardCoinSummaryComponent,
+    ViewsDashboardCoinRaisingComponent
   ],
   imports: [
     CommonModule,

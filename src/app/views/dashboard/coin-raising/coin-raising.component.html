@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="this-container-name mb-4 py-1">FASTEST RAISING COINS OF FEBRUARY 2018</div>
+    <div class="mb-4" *ngFor="let coin of coins">
+        <div class="flex flex-align-items-center mb-1">
+        <span class="mr-2">
+            <i *ngIf="coin.trend === 0" class="fas fa-circle this-coin-trend-nochange"></i>
+        </span>
+            <span>{{ coin.name }}</span>
+        </div>
+        <div>last months's rank: {{ coin.lastMonthRank }}</div>
+        <div>average price: {{ coin.avgPrice }} $ ({{ coin.lastMonthPriceChange }}% from last month)</div>
+    </div>
+</div>

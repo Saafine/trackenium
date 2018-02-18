@@ -1,0 +1,17 @@
+@import '../../../../styles/_variables.scss';
+
+.this-container-name {
+  border-bottom: 1px dotted #42464a;
+}
+
+.this-icon-trend {
+  font-size: 12px;
+}
+
+.this-coin-trend-nochange {
+  @extend .this-icon-trend;
+  //font-size: $font-xs;
+  //font-size: 20px;
+  //color: #46525d;
+  //display: none;;
+}

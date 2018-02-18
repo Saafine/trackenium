@@ -5,11 +5,11 @@ import {
 import { CoinSummaryModel } from '../../../models/coin.model';
 
 @Component({
-  selector: 'views-dashboard-coin-summary',
-  styleUrls: ['./coin-summary.component.scss'],
-  templateUrl: './coin-summary.component.html',
+  selector: 'views-dashboard-coin-raising',
+  styleUrls: ['./coin-raising.component.scss'],
+  templateUrl: './coin-raising.component.html',
 })
-export class ViewsDashboardCoinSummaryComponent implements OnInit {
+export class ViewsDashboardCoinRaisingComponent implements OnInit {
   @Input() public coins: CoinSummaryModel[];
   constructor() {}
 
