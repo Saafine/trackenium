@@ -1,0 +1,27 @@
+@import '../../../../styles/_variables.scss';
+
+.this-coin-index {
+  font-size: 20px;
+}
+
+.this-coin-image {
+  height: 50px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.this-coin-name {
+  color: $primary-gray-5;
+}
+
+.this-coin-info-wrapper {
+  min-width: 200px;
+}
+
+.this-coin-chart {
+  background: #427d80;
+  width: 100%;
+  height: 40px;
+}

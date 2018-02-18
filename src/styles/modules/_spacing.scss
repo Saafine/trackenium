@@ -140,6 +140,11 @@
   margin-right: $spacer !important;
   margin-left: $spacer !important;
 }
+
+.mx-auto {
+  margin-right: auto !important;;
+  margin-left: auto !important;;
+}
 // ------------------------------------
 
 // Margin top-bot
@@ -167,6 +172,11 @@
 .my-4 {
   margin-top: $spacer !important;
   margin-bottom: $spacer !important;
+}
+
+.my-auto {
+  margin-top: auto !important;;
+  margin-left: auto !important;;
 }
 // ------------------------------------
 
